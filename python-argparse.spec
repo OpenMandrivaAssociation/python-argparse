@@ -1,6 +1,6 @@
 %define module	argparse
 %define name	python-%{module}
-%define version 1.0
+%define version 1.0.1
 %define release %mkrel 1
 
 Summary:	A Python command line parser inspired by optparse
@@ -43,11 +43,12 @@ including:
 %install
 %__rm -rf %{buildroot}
 %__python setup.py install --root=%{buildroot} --record=FILE_LIST
+%__chmod -R og-w *.txt doc/
 
 %clean
 %__rm -rf %{buildroot}
 
 %files -f FILE_LIST
 %defattr(-,root,root)
-%doc README.txt doc/*
+%doc *.txt doc/*
 
