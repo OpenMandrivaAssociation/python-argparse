@@ -48,7 +48,7 @@ including:
 %clean
 %__rm -rf %{buildroot}
 
-%files -f FILE_LIST
+%files
 %defattr(-,root,root)
 %doc *.txt doc/*
-
+%py_puresitedir/*
