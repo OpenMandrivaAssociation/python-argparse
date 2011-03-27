@@ -1,13 +1,13 @@
 %define module	argparse
 %define name	python-%{module}
-%define version 1.1
+%define version 1.2
 %define release %mkrel 1
 
 Summary:	A Python command line parser inspired by optparse
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{module}-%{version}.zip
+Source0:	http://argparse.googlecode.com/files/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
 Url:		http://argparse.python-hosting.com/
@@ -52,3 +52,4 @@ including:
 %defattr(-,root,root)
 %doc *.txt doc/*
 %py_puresitedir/*
+
