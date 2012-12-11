@@ -53,3 +53,42 @@ including:
 %doc *.txt doc/*
 %py_puresitedir/*
 
+
+
+%changelog
+* Thu Apr 21 2011 Lev Givon <lev@mandriva.org> 1.2.1-1mdv2011.0
++ Revision: 656496
+- Update to 1.2.1.
+
+* Sun Mar 27 2011 Lev Givon <lev@mandriva.org> 1.2-1
++ Revision: 648599
+- Update to 1.2.
+
+* Wed Nov 17 2010 Funda Wang <fwang@mandriva.org> 1.1-1mdv2011.0
++ Revision: 598174
+- update file list
+
+* Mon Mar 01 2010 Lev Givon <lev@mandriva.org> 1.1-1mdv2010.1
++ Revision: 512979
+- Update to 1.1.
+
+* Wed Dec 09 2009 Lev Givon <lev@mandriva.org> 1.0.1-1mdv2010.1
++ Revision: 475622
+- Update to 1.0.1.
+  Fix world-writable files.
+
+* Mon Jul 27 2009 Lev Givon <lev@mandriva.org> 1.0-1mdv2010.0
++ Revision: 400533
+- Update to 1.0.
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 0.8.0-2mdv2009.1
++ Revision: 323533
+- rebuild
+
+* Thu Jul 17 2008 Lev Givon <lev@mandriva.org> 0.8.0-1mdv2009.0
++ Revision: 237814
+- import python-argparse
+
+
+* Thu Jul 17 2008 Lev Givon <lev@mandriva.org> 0.8.0-1mdv2008.1
+- Package for Mandriva.
