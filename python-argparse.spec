@@ -11,7 +11,6 @@ Source0:	http://argparse.googlecode.com/files/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
 Url:		http://argparse.python-hosting.com/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python >= 2.3
 BuildRequires:	python-devel >= 2.3, python-setuptools
 BuildArch:	noarch
@@ -41,15 +40,10 @@ including:
 %setup -q -n %{module}-%{version}
 
 %install
-%__rm -rf %{buildroot}
 %__python setup.py install --root=%{buildroot} --record=FILE_LIST
 %__chmod -R og-w *.txt doc/
 
-%clean
-%__rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root)
 %doc *.txt doc/*
 %py_puresitedir/*
 
