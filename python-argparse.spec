@@ -1,7 +1,7 @@
 %define module	argparse
 %define name	python-%{module}
 %define version 1.2.1
-%define release %mkrel 1
+%define release 2
 
 Summary:	A Python command line parser inspired by optparse
 Name:		%{name}
