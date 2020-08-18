@@ -6,13 +6,14 @@
 Summary:	A Python command line parser inspired by optparse
 Name:		%{name}
 Version:	1.4.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/18/dd/e617cfc3f6210ae183374cd9f6a26b20514bbb5a792af97949c5aacddf0f/argparse-1.4.0.tar.gz
 License:	BSD
 Group:		Development/Python
 Url:		http://argparse.python-hosting.com/
 Requires:	python >= 2.3
-BuildRequires:	python-devel >= 2.3, python-setuptools
+BuildRequires:	pkgconfig(python) >= 2.3, 
+BuildRequires:  python3dist(setuptools)
 BuildArch:	noarch
 
 %description
