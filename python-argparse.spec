@@ -1,12 +1,12 @@
 %define module	argparse
 %define name	python-%{module}
 %define version 1.2.1
-%define release 2
+%define release 3
 
 Summary:	A Python command line parser inspired by optparse
 Name:		%{name}
 Version:	1.4.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/18/dd/e617cfc3f6210ae183374cd9f6a26b20514bbb5a792af97949c5aacddf0f/argparse-1.4.0.tar.gz
 License:	BSD
 Group:		Development/Python
