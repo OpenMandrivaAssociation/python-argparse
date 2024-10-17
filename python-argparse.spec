@@ -10,7 +10,7 @@ Release:	3
 Source0:	https://files.pythonhosted.org/packages/18/dd/e617cfc3f6210ae183374cd9f6a26b20514bbb5a792af97949c5aacddf0f/argparse-1.4.0.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://argparse.python-hosting.com/
+Url:		https://argparse.python-hosting.com/
 Requires:	python >= 2.3
 BuildRequires:	pkgconfig(python) >= 2.3, 
 BuildRequires:  python3dist(setuptools)
